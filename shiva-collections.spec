@@ -10,6 +10,7 @@ Source0:	http://download.opengtl.org/%{name}-%{version}.tar.bz2
 URL:		http://www.opengtl.org/languages/shiva/
 BuildRequires:	cmake >= 2.6
 Requires:	OpenGTL
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
